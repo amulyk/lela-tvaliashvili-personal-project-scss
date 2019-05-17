@@ -1,3 +1,20 @@
-.header {
-    background: green;
+.wrapper {
+    width: 100%;
+}
+
+.row_header {
+
+    .container {
+        width: 1024px;
+        padding: 0 304px;
+    }
+
+    .container::after {
+        left: 31px;
+    }
+}
+
+section.info {
+    width: 343px;
+    margin-left: 32px;
 }

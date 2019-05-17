@@ -1,3 +1,85 @@
-.header {
-    background: yellow;
+.wrapper {
+    width: 100%;
+
+    .info {
+        width: 272px;
+        margin-left: 24px;
+        background-color: #FF000AD6;
+
+        .info_content {
+            margin-bottom: 41px;
+
+            span:nth-of-type(1) {
+                margin-left: 4px;
+                padding: 4px 10px;
+                font-size: 10px;
+                letter-spacing: -.2px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .admission {
+                font-size: 16px;
+
+                &::before {
+                    left: 4px;
+                }
+            }
+        }
+    }
+
+    .iconDetails {
+        justify-content: center;
+
+        a {
+            padding: 11px 12.1px 5px 9px;
+        }
+
+        a:last-child {
+            border-right: 1px solid #F69397;
+        }
+    }
+}
+
+.settings {
+    position: absolute;
+    width: 63px;
+    margin-top: 15px;
+    margin-left: 232px;
+    padding: 13px 17px;
+    background-color: #000000;
+}
+
+.e_logo {
+    margin-bottom: 75px;
+    margin-left: 38px;
+    font-size: 15px;
+
+    &::before {
+        content: 'E';
+        position: absolute;
+        margin-top: -4px;
+        margin-left: -39px;
+        padding: 3px 7px;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25.85px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+}
+
+.head_overview {
+
+    .icon_arrow img {
+        display: none;
+    }
+}
+
+.row_header .container::after {
+    position: initial;
+    width: 100%;
 }

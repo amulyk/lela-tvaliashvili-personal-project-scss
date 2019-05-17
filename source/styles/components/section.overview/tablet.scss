@@ -1,0 +1,49 @@
+
+.overview {
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+
+    .container {
+        width: 669px;
+        margin-top: 1px;
+
+        .contentback {
+            display: none;
+        }
+
+        .blogcontent {
+            display: block;
+            margin-top: 0;
+            padding-left: 35px;
+
+            h1 {
+                margin-bottom: 43px;
+                margin-left: -3px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 30px;
+                font-weight: 900;
+                letter-spacing: -1.1px;
+            }
+
+            > p {
+                margin-bottom: 30px;
+                margin-left: -3px;
+                font-size: 20px;
+                font-weight: 300;
+                letter-spacing: .1px;
+                line-height: 29px;
+                word-spacing: -.6px;
+            }
+
+            p:last-child {
+                margin-top: 5px;
+                padding-right: 50px;
+                font-size: 14px;
+                font-weight: 300;
+                letter-spacing: .2px;
+                line-height: 20px;
+                word-spacing: -1.44px;
+            }
+        }
+    }
+}

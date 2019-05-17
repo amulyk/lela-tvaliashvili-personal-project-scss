@@ -1,6 +1,6 @@
 .overview {
     height: 599px;
-    background-color: rgb(255, 255, 255);
+    background-color: $color-11;
     text-align: center;
 
     .container {
@@ -8,6 +8,7 @@
 
         .column_inside {
             width: 100%;
+            
             p {
                 margin-bottom: 20px;
             }
@@ -61,7 +62,6 @@
                     padding-right: 12px;
                     line-height: 18px;
                 }
-    
             }
         }
     }

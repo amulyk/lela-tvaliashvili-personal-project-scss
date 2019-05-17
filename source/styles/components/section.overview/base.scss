@@ -80,8 +80,9 @@
                     }
 
                     &:last-child {
+                        margin-bottom: 13px;
                         padding-right: 12px;
-                        column-count: 2;
+                        column-count: initial;
                         line-height: 18px;
                     }
                 }

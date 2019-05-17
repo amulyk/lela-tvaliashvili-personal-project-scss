@@ -18,7 +18,7 @@
 
             h1 {
                 margin-bottom: 43px;
-                margin-left: -3px;
+                margin-left: -62px;
                 font-family: 'Montserrat', sans-serif;
                 font-size: 30px;
                 font-weight: 900;
@@ -27,7 +27,7 @@
 
             > p {
                 margin-bottom: 30px;
-                margin-left: -3px;
+                margin-left: -59px;
                 font-size: 20px;
                 font-weight: 300;
                 letter-spacing: .1px;
@@ -43,6 +43,14 @@
                 letter-spacing: .2px;
                 line-height: 20px;
                 word-spacing: -1.44px;
+            }
+
+            .column_inside {
+                width: 546px;
+                margin-bottom: 31px;
+                margin-left: -59px;
+                column-gap: 41px;
+                column-width: 200px;
             }
         }
     }
